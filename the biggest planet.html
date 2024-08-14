@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<HTml lang="en" >
+<head>
+<meta charset="UTF-8" > 
+<meta name="viewport" content="width=device-width,initial-scale1.0">
+<title>Document</title>
+<style>
+  header{
+    background-color: black;
+     color: white;
+    text-align:center ;
+    }
+p{
+    background-color: blue;
+      border: 5px black double;
+      color: white;
+    padding: 20px;
+    }
+body{
+    text-align: center;
+}
+nav{
+    display: flex;
+      height: 40px;
+      justify-content: center;
+}
+nav a{
+display: flex;
+text-decoration: none;
+font-size: larger;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+transition: background-color 2.0s;
+transition: color 2.0s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+}
+@media (max-width: 400px ) {
+    nav{
+       flex-direction: column;
+        height: 100px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>welcom to what is the biggest planet in the solar system</h1>
+        <nav>
+            <a href="index.html">home</a>
+             <a href="the smallest planet.html">the smallest planet</a>
+            <a href="solar system.html">solar system information</a>
+        </nav>
+    </header>
+    <main>
+        <p>t didn’t take long from the invention of the telescope to realize that Jupiter is the largest planet in the solar system, leaving it the largest...</p>
+        <img src="./proxy-image (2).jpg" alt="">
+    </main>
+</body>
+</html

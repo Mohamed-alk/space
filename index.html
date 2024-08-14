@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   header{
+     background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      border: 10px rgb(0, 26, 255) double;
+    text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+p{
+       border: 4px black double;
+     color: rgb(255, 255, 255);
+    background-color:blue ;
+    padding: 20px;
+}
+img{
+
+     border: 10px rgb(0, 255, 0) double;
+height: 200px;
+width: 300px;
+}
+nav{
+    display: flex;
+      height: 40px;
+      justify-content: center;
+}
+nav a{
+display: flex;
+text-decoration: none;
+font-size: larger;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+transition: background-color 2.0s;
+transition: color 2.0s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 400px ) {
+    nav{
+       flex-direction: column;
+        height: 100px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>welcom to space information</h1>
+    <nav>
+        <a href="the biggest planet.html">the biggest planet</a>
+         <a href="the smallest planet.html">the smallest planet</a>
+        <a href="solar system.html">solar system information</a>
+    </nav>
+    </header>
+    <main>
+       <p>NASA's Glenn Research Center replaced radio waves with laser communication. This new method transmits 10 to 100 times more data faster.</p>
+        <img src="./proxy-image.jpg" alt="">
+        <p>July 24, 2024 — Using the James Webb Space Telescope (JWST), astronomers imaged a new exoplanet that orbits a star in the nearby triple system Epsilon...</p>
+    <p>Good Afternoon! This is Akin’s biweekly policy newsletter on space policy and regulatory developments, providing information on major space</p>
+    </main>
+</body>
+</html>

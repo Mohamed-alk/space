@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTml lang="en" >
+<head>
+<meta charset="UTF-8" > 
+<meta name="viewport" content="width=device-width,initial-scale1.0">
+<title>Document</title>
+<style>
+header{
+      color: white;
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+    }
+p{
+    background-color: blue;
+    border: 5px black double;
+       padding: 20px;
+    color: white;
+}
+body{
+    text-align: center;
+}
+img{
+    border: 10px rgb(0, 255, 0) double;
+width: 400px;
+height: 300px;
+}
+nav{
+    display: flex;
+      height: 40px;
+      justify-content: center;
+}
+nav a{
+display: flex;
+text-decoration: none;
+font-size: larger;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+transition: background-color 2.0s;
+transition: color 2.0s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+color: aqua;
+}
+@media (max-width: 400px ) {
+    nav{
+       flex-direction: column;
+        height: 100px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>welcom to what is the smallest planet</h1>
+        <nav>
+            <a href="index.html">home</a>
+             <a href="the biggest planet.html">the biggest planet</a>
+            <a href="solar system.html">solar system information</a>
+        </nav>
+    </header>
+    <main>
+<p>A NASA spacecraft has discovered that the planet Mercury has a 16-kilometer-thick layer of diamonds. The mission of the American space agency MESSENGER has shown that...</p>
+        <img src="./proxy-image (3).jpg" alt="">
+    </main>
+</body>
+</html>

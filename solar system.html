@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTml lang="en" >
+<head>
+<meta charset="UTF-8" > 
+<meta name="viewport" content="width=device-width,initial-scale1.0">
+<title>Document</title>
+<style>
+header{
+    background-color: black;
+    color: white;
+     text-align: center;
+}
+p{
+    background-color: blue;
+    border: 5px black double;
+     color: white;
+     padding: 20px;
+    }
+body{
+    text-align: center;
+}
+img{
+    height: 300px;
+  width: 400px;
+}
+nav{
+    display: flex;
+      height: 40px;
+      justify-content: center;
+}
+nav a{
+display: flex;
+text-decoration: none;
+font-size: larger;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+transition: background-color 2.0s;
+transition: color 2.0s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+}
+@media (max-width: 400px ) {
+    nav{
+       flex-direction: column;
+        height: 100px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+     <h1>welcom to solar system information</h1>
+     <nav>
+        <a href="index.html">home</a>
+         <a href="the biggest planet.html">the biggest planet</a>
+        <a href="the smallest planet.html">the smallest planet</a>
+    </nav>
+    </header>
+    <main>
+        <p>Scientists have determined that a rare element found in some of the oldest solids in the solar system, such as meteorites, and previously thought to have...
+        </p>
+        <img src="./proxy-image (1).jpg" alt="">
+    </main>
+</body>
+</html>
